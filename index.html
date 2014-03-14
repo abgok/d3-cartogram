@@ -125,7 +125,7 @@
         <svg id="map"></svg>
         <div id="theyear">
             <span></span><br />
-            <input style="position:relative; width:110px" type="range" min="1990" max="2011" value="1990">
+            <input style="position:relative; width:110px" type="range" min="2000" max="2014" value="2000">
         </div>
         <div id="credits">Created by <a href="https://twitter.com/intent/follow?screen_name=juancommander">@juancommander</a> using <a href="http://d3js.org">d3.js</a> and <a href="https://github.com/shawnbot/d3-cartogram/">cartogram.js</a></div>
     </div>
@@ -139,6 +139,7 @@
     <div id="about">
         <h2>About</h2>
         <p>
+        XXXX
             This map was produced by Juan Pablo Alperin (<a href="https://twitter.com/intent/follow?screen_name=juancommander">@juancommander</a>) using
             <a href="http://d3js.org">d3.js</a> and <a href="https://github.com/shawnbot/d3-cartogram/">cartogram.js</a>.
             It was inspired by the out of date map over at <a href="http://worldmapper.org/display.php?selected=205">worldmapper.org</a>.
@@ -173,7 +174,7 @@ var percent = (function() {
             var fmt = d3.format(".2f");
             return function(n) { return fmt(n) + "%"; };
         })(),
-        years = [1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011],
+        years = [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014],
         fields = [
 //            {name: "(no scale)", id: "none"},
             {name: "Number of Articles in ISI", id: "num_articles", key: "num_articles%d", years: years}
